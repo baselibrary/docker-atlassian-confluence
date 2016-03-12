@@ -8,7 +8,7 @@ ENV CONFLUENCE_VERSION 5.9.6
 ## Packages
 RUN \
   mkdir -p /opt/atlassian &&\
-  curl -fsSL "http://www.atlassian.com/software/jira/downloads/binary/atlassian-confluence-${CONFLUENCE_VERSION}.tar.gz"| tar -zxvf - --strip-components=1 -C /opt/atlassian
+  curl -fsSL "http://confluence.goldpitcher.co.kr/download/attachments/165479304/atlassian-confluence-${CONFLUENCE_VERSION}.tar.gz"| tar -zxvf - --strip-components=1 -C /opt/atlassian
 
 ## Configurations
 RUN \
