@@ -13,4 +13,4 @@
 
 ### Usage
 
-    docker run -it --rm baselibrary/atlassian-confluence
+    docker run -it --rm -p 8090:8090 baselibrary/atlassian-confluence
