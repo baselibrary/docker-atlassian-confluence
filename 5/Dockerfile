@@ -3,12 +3,12 @@ MAINTAINER ShawnMa <qsma@thoughtworks.com>
 
 ## Version
 ENV CONFLUENCE_MAJOR   5
-ENV CONFLUENCE_VERSION 5.9.6
+ENV CONFLUENCE_VERSION 5.9.9
 
 ## Packages
 RUN \
   mkdir -p /opt/atlassian &&\
-  curl -fsSL "http://confluence.goldpitcher.co.kr/download/attachments/165479304/atlassian-confluence-${CONFLUENCE_VERSION}.tar.gz"| tar -zxvf - --strip-components=1 -C /opt/atlassian
+  curl -fsSL "http://confluence.goldpitcher.co.kr/download/attachments/166036277/atlassian-confluence-${CONFLUENCE_VERSION}.tar.gz"| tar -zxvf - --strip-components=1 -C /opt/atlassian
 
 ## Configurations
 RUN \
