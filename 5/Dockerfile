@@ -13,7 +13,7 @@ RUN \
 ## Configurations
 RUN \
   mkdir -p /var/lib/atlassian &&\
-  echo "confluence.home=/var/lib/atlassian" > "/opt/atlassian/confluence/WEB-INF/classes/confluence-init.properties"
+  echo "confluence.home=/var/lib/confluence" > "/opt/atlassian/confluence/WEB-INF/classes/confluence-init.properties"
 
 EXPOSE 8090
 
