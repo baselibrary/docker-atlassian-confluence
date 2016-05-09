@@ -1,6 +1,6 @@
 NAME     = baselibrary/atlassian-confluence
 REPO     = git@github.com:baselibrary/docker-atlassian-confluence.git
-REGISTRY = thoughtworks.ga
+REGISTRY = thoughtworks.io
 VERSIONS = $(foreach df,$(wildcard */Dockerfile),$(df:%/Dockerfile=%))
 
 all: build 
